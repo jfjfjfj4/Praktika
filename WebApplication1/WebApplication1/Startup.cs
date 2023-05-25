@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApplication1.Data.Interfaces;
+using WebApplication1.Data.mocks;
 
 namespace WebApplication1
 {
@@ -23,7 +25,8 @@ namespace WebApplication1
        
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddTransient<IAllcars, MockCars>();
+            services.AddTransient<Icarscategory, MockCategory>();
             services.AddMvc();
 
 
