@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eX6BBoFCFaETqfiVlv4gMVD/0OBh2oV2ID37kwufgrquQMG4A30Aev1VEXBuy2ww7ceEVQ5PO0FALQLJHPxk2Q==",
+  "dgSpecHash": "CJkNtaISNLK1/uH05RLfY3ouUaRNOLhkAb6rDnziwsAFwRPFTpjkR5YEHeBLDnJAMEa4xgtgrKMuSco38E1Lfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\defaultuser0\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\defaultuser0\\source\\repos\\Praktika\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\defaultuser0\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\defaultuser0\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
