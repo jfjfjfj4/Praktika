@@ -1,0 +1,81 @@
+﻿<Window x:Class="план.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:план"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Canvas Grid.ColumnSpan="7" Grid.RowSpan="8">
+            <Rectangle Width="200" Height="140"  Fill="WhiteSmoke"  />
+            <TextBlock Text="комната 1" FontSize="17"/>
+            <Rectangle Width="50" Height="5" Fill="Black" Margin="40,140,0,0"/>
+
+
+
+            <Rectangle   Fill="Ivory" Width="200" Height="140" Margin="200,0,0,0" />
+            <TextBlock Text="комната 2" FontSize="17" Canvas.Left="255" Canvas.Top="4"/>
+            <Rectangle Width="50" Height="5" Fill="Black" Margin="230,140,0,0"/>
+
+
+            <TextBlock Text="кухня" FontSize="17" Canvas.Left="352" Canvas.Top="175" RenderTransformOrigin="-2.292,1.959"/>
+            <Rectangle Width="100" Height="186"  Fill="WhiteSmoke" Margin="0,200,0,0" />
+            <TextBlock Text="туалет" FontSize="17" Canvas.Left="16" Canvas.Top="177" RenderTransformOrigin="-2.292,1.959"/>
+            <Rectangle Width="50" Height="5" Fill="Black" Margin="20,200,0,0"/>
+
+
+            <TextBlock Text="ванна" FontSize="17" Canvas.Left="127" Canvas.Top="175" RenderTransformOrigin="-2.292,1.959"/>
+            <Rectangle  Width="100" Height="186"  Grid.ColumnSpan="2" Fill="Tan" Margin="100,200,0,0" />
+            <Rectangle Width="50" Height="5" Fill="Black" Margin="120,200,0,0"/>
+
+
+            <TextBlock Text="кабинет" FontSize="17" Canvas.Left="343" Canvas.Top="302" RenderTransformOrigin="-2.292,1.959"/>
+            <Rectangle Width="160" Height="256" Fill="IndianRed"  Margin="400,0,0,0"/>
+            <Rectangle Width="5" Height="50" Fill="Black" Margin="400,170,0,0"/>
+
+
+            <TextBlock Text="коридор" FontSize="17" Canvas.Left="246" Canvas.Top="353" RenderTransformOrigin="-2.292,1.959"/>
+            <Rectangle Width="160" Height="134" Margin="400,250,0,0" Fill="AliceBlue" />
+            <Rectangle Width="5" Height="50" Fill="Black" Margin="400,300,0,0"/>
+
+
+
+        </Canvas>
+
+        
+        <Button Grid.Column="8" Grid.Row="1" Content="вверх" FontSize="20" Click="Vverx_Click"/>
+        <Button Grid.Column="7" Grid.Row="2" Content="влево" FontSize="20" Click="Vlevo_Click"/>
+        <Button Grid.Column="9" Grid.Row="2" Content="вправо" FontSize="20" Click="Vpravo_Click" />
+        <Button Grid.Column="8" Grid.Row="3" Content="вниз" FontSize="20" Click="Vniz_Click"/>
+        <Canvas Grid.Row="9" Grid.ColumnSpan="7" Background="Khaki" Name="qq" Height="49">
+            <Rectangle Width="50" Height="5" Fill="Black" Margin="250,-5,0,0"/>
+
+        </Canvas>
+
+    </Grid>
+</Window>
